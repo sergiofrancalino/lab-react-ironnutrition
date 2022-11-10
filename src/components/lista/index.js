@@ -4,7 +4,7 @@ function Lista (props){
     
     return (
         <div>
-          <img src={props.imagem} alt="Type of food" width={80}/>
+          <img src={props.imagem} alt="Type of food" width={200}/>
           <p>{props.nome}</p>
         </div>
     ) 

@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import 'antd/dist/antd.min.css'; // To make the Ant Design styles available
+
+import 'antd/dist/antd.min.css'; // To make the Ant Design styles available to all project.
 
 import './index.css';
 import App from './App';
@@ -13,6 +14,6 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <App />
+    <App /> // 
   </React.StrictMode>
 );
